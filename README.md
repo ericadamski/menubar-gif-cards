@@ -1,4 +1,8 @@
-# React Menu Bar
+# GIF Menu Bar
+
+![it is alive](https://user-images.githubusercontent.com/6516758/37407779-df34c2ca-2770-11e8-9ec3-363b08eec70e.gif)
+
+# Base App
 
 This app is intended to give you a really quick starting place with a menubar app built with React and all the ES6 goodness. It's all made possible by the good work done on [MenuBar](https://github.com/maxogden/menubar) and [Parcel JS](https://parceljs.org/)
 
