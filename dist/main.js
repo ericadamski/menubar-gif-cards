@@ -80,13 +80,13 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactDom = require('react-dom');
 
+var _reactGifSearch = require('react-gif-search');
+
+var _reactGifSearch2 = _interopRequireDefault(_reactGifSearch);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const Main = () => _react2.default.createElement(
-  'div',
-  null,
-  'Hello World!!! You made it!'
-);
+const Main = () => _react2.default.createElement(_reactGifSearch2.default, null);
 
 (0, _reactDom.render)(_react2.default.createElement(Main, null), document.getElementById('main'));
 },{}]},{},[1])

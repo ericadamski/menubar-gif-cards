@@ -8,8 +8,8 @@ dotenv.config();
 export const mb = menubar({
     dir: __dirname + '/../',
     preloadWindow: true,
-    height: 400,
-    width: 350,
+    height: 640,
+    width: 560,
 });
 
 let appLauncher = new AutoLaunch({ name: process.env.APP_SLUG });

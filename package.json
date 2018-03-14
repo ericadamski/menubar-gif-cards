@@ -9,13 +9,16 @@
     "scripts": {
         "start": "electron .",
         "watch:electron": "parcel watch index.js --target=electron",
-        "watch:react": "parcel watch main.js --target=node"
+        "watch:react": "parcel watch main.js --target=node",
+        "watch": "concurrently \"yarn watch:electron\" \"yarn watch:react\" "
     },
     "dependencies": {
         "auto-launch": "^5.0.5",
+        "concurrently": "^3.5.1",
         "dotenv": "^5.0.1",
         "menubar": "^5.2.3",
-        "react-gif-search": "^0.0.2"
+        "react-gif-search": "^0.0.2",
+        "styled-components": "^3.2.2"
     },
     "peerDependencies": {
         "react": "^16.2.0",

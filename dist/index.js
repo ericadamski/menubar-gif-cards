@@ -1,4 +1,4 @@
-process.env.HMR_PORT=50330;process.env.HMR_HOSTNAME="";// modules are defined as an array
+process.env.HMR_PORT=55620;process.env.HMR_HOSTNAME="";// modules are defined as an array
 // [ module function, map of requires ]
 //
 // map of requires is short require name -> numeric require
@@ -100,8 +100,8 @@ _dotenv2.default.config();
 const mb = exports.mb = (0, _menubar2.default)({
     dir: __dirname + '/../',
     preloadWindow: true,
-    height: 400,
-    width: 350
+    height: 640,
+    width: 560
 });
 
 let appLauncher = new _autoLaunch2.default({ name: process.env.APP_SLUG });
@@ -134,7 +134,7 @@ mb.on('ready', () => {
         mb.tray.popUpContextMenu(contextMenu);
     });
 });
-},{}],11:[function(require,module,exports) {
+},{}],3:[function(require,module,exports) {
 var global = (1, eval)('this');
 var OldModule = module.bundle.Module;
 function Module(moduleName) {
@@ -257,5 +257,5 @@ function hmrAccept(bundle, id) {
   });
 }
 
-},{}]},{},[11,1])
+},{}]},{},[3,1])
 //# sourceMappingURL=/dist/index.map
