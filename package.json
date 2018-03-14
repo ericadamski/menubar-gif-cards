@@ -14,7 +14,8 @@
     "dependencies": {
         "auto-launch": "^5.0.5",
         "dotenv": "^5.0.1",
-        "menubar": "^5.2.3"
+        "menubar": "^5.2.3",
+        "react-gif-search": "^0.0.2"
     },
     "peerDependencies": {
         "react": "^16.2.0",
